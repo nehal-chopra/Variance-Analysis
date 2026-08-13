@@ -23,7 +23,17 @@ The model (`variance analysis.xlsx`) integrates baseline projections with a tran
 | **`Actual`** | Transactional General Ledger | Detailed itemized logs including dates, categories, descriptions, and transactional amounts. |
 
 ---
+## Tool Used:
+Microsoft Excel
+>Dynamic Drop-Down in cell: Interactive feature which allows users to select month for which they would like to see variance analysis >(Actuals vs Budget).
+>INDEX() function/formula
+>MATCH() function/formula
+>SUMIFS() function/formula
+>Conditional Formatting: “Highlight Cell Rules” with custom formatting for easier understanding for business users to see data insights in this variance analysis data. * Dynamic and extendibility features: This model allows business users to add new data (data row in actual workbook) which will be inputted in the calculation automatically. This makes this model very dynamic, interactive, extendable and useful.
+>Charts for Income Data: “Clustered Column Chart” with custom formatting – series, chart area, etc.
+>Charts for Actual Expenses Data: “Pie Chart” with custom formatting – series, chart area, etc.
 
+---
 ## 🧮 Calculation Logic & Formulas
 
 * **Absolute Variance**: $\text{Actual} - \text{Budget}$
