@@ -23,10 +23,10 @@ The model (`variance analysis.xlsx`) integrates baseline projections with a tran
 | **`Actual`** | Transactional General Ledger | Detailed itemized logs including dates, categories, descriptions, and transactional amounts. |
 
 ---
-🧮 Excel Formulas & Core Analytical Functions
-INDEX() & MATCH(): Used in tandem for dynamic, multi-criteria matrix lookups across monthly budget targets and dashboard summaries.
+### 🧮 Excel Formulas & Core Analytical Functions
 
-SUMIFS(): Evaluates general ledger entries to aggregate actual inflows and outflows by category and selected period.
+* **`INDEX()` & `MATCH()`**: Used in tandem for dynamic, multi-criteria matrix lookups across monthly budget targets and dashboard summaries.
+* **`SUMIFS()`**: Evaluates general ledger entries to aggregate actual inflows and outflows by category and selected period.
 ---
 ⚙️ Interactive Features & Dynamic Automation
 Dynamic Drop-Down Selection: Data validation list allowing business users to switch between months and instantly update all variance calculations (Actuals vs. Budget).
