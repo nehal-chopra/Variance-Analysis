@@ -28,20 +28,17 @@ The model (`variance analysis.xlsx`) integrates baseline projections with a tran
 * **`INDEX()` & `MATCH()`**: Used in tandem for dynamic, multi-criteria matrix lookups across monthly budget targets and dashboard summaries.
 * **`SUMIFS()`**: Evaluates general ledger entries to aggregate actual inflows and outflows by category and selected period.
 ---
-⚙️ Interactive Features & Dynamic Automation
-Dynamic Drop-Down Selection: Data validation list allowing business users to switch between months and instantly update all variance calculations (Actuals vs. Budget).
+### ⚙️ Interactive Features & Dynamic Automation
 
-Automated Month Selection: Automatically sets the drop-down to the current active month upon opening for immediate executive visibility.
+* **Dynamic Drop-Down Selection**: Data validation list allowing business users to switch between months and instantly update all variance calculations (Actuals vs. Budget).
+* **Automated Month Selection**: Automatically sets the drop-down to the current active month upon opening for immediate executive visibility.
+* **Dynamic Data Extendibility**: Built with dynamic range references—adding new general ledger transaction rows into the `Actual` sheet automatically updates all dashboard calculations without modifying formulas.
+* **Conditional Formatting**: Customized "Highlight Cell Rules" visually flag favorable vs. unfavorable financial deviations for faster executive decision-making.
 
-Dynamic Data Extendibility: Built with dynamic range references—adding new general ledger transaction rows into the Actual sheet automatically updates all dashboard calculations without modifying formulas.
+### 📉 Data Visualizations & Analytics
 
-Conditional Formatting: Customized "Highlight Cell Rules" visually flag favorable vs. unfavorable financial deviations for faster executive decision-making.
-
-📉 Data Visualizations & Analytics
-Income Analysis Chart: Custom-formatted Clustered Column Chart comparing budgeted revenue targets against actual earnings per category.
-
-Actual Expenses Breakdown: Custom-styled Pie Chart mapping operational expenditure distribution to highlight primary cost drivers.
-
+* **Income Analysis Chart**: Custom-formatted **Clustered Column Chart** comparing budgeted revenue targets against actual earnings per category.
+* **Actual Expenses Breakdown**: Custom-styled **Pie Chart** mapping operational expenditure distribution to highlight primary cost drivers.
 ---
 ## 🧮 Calculation Logic & Formulas
 
